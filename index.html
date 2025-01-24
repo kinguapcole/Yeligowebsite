@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeligo - Luxury Custom Watches</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 3px;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .hero {
+            background: url('hero-image-placeholder.jpg') no-repeat center center/cover;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 40px;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+        }
+        .product p {
+            font-size: 1em;
+            color: #666;
+        }
+        .order-form {
+            background: #fff;
+            padding: 40px;
+            margin: 20px auto;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .order-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .order-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .order-form input, .order-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .order-form button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            background: #000;
+            color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yeligo</h1>
+        <p>Timeless Luxury Custom Watches</p>
+    </header>
+
+    <div class="hero">
+        <h2>Where Elegance Meets Precision</h2>
+    </div>
+
+    <section class="products">
+        <div class="product">
+            <img src="watch1-placeholder.jpg" alt="Luxury Watch 1">
+            <h3>Classic Gold Watch</h3>
+            <p>$250</p>
+        </div>
+        <div class="product">
+            <img src="watch2-placeholder.jpg" alt="Luxury Watch 2">
+            <h3>Modern Silver Watch</h3>
+            <p>$300</p>
+        </div>
+        <div class="product">
+            <img src="watch3-placeholder.jpg" alt="Luxury Watch 3">
+            <h3>Rose Gold Edition</h3>
+            <p>$350</p>
+        </div>
+    </section>
+
+    <section class="order-form">
+        <h2>Order Your Watch</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="watch">Watch Model</label>
+            <input type="text" id="watch" name="watch" placeholder="Enter the watch model you'd like" required>
+
+            <label for="message">Additional Details (Optional)</label>
+            <textarea id="message" name="message" rows="4" placeholder="Any custom requests or notes..."></textarea>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Yeligo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
